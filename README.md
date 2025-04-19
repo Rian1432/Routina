@@ -17,6 +17,8 @@ Para ajudar o usuário a se organizar e alcançar seus objetivos, o Routina ofer
 
 ## Protótipos de tela
 
+- [Protótipo no figma](https://www.figma.com/proto/N9sAE0mgAghR4c2TFUJpMs/Routina?node-id=8-3&p=f&t=GEv2Kx4AknVnLgeS-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A3)
+
 ## Modelagem do banco
 
 ## Planejamento de sprints
