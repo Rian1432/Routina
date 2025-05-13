@@ -25,10 +25,10 @@ Para ajudar o usuário a se organizar e alcançar seus objetivos, o Routina ofer
 
 ## Planejamento de sprints
 
-- semana 1: Configurações gerais do projeto(layout e banco de dados)
-- semana 2: Cadastro e autenticação de usuário
-- semana 3: CRUD de tarefas da semana
-- semana 4: CRUD de hábitos
+- [ ] semana 1: Configurações gerais do projeto(layout e banco de dados)
+- [ ] semana 2: Cadastro e autenticação de usuário
+- [ ] semana 3: CRUD de tarefas da semana
+- [ ] semana 4: CRUD de hábitos
 
 ## Executando do projeto em desenvolvimento
 
