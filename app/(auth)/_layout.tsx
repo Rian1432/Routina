@@ -1,10 +1,11 @@
+import { GLOBAL_COLORS } from "@/constants/Colors";
 import { Slot } from "expo-router";
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
 export default function AuthLayout() {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <View style={styles.header}>
         <Image source={require('../../assets/images/logo.png')} />
       </View>
@@ -18,7 +19,7 @@ export default function AuthLayout() {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "#9d81d6",
+    backgroundColor: GLOBAL_COLORS.PRIMARY,
     justifyContent: "center",
     alignItems: "center",
     padding: 20,

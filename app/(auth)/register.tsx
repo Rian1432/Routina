@@ -2,8 +2,9 @@ import { View, Text, StyleSheet } from "react-native";
 import { Button, Input } from "@rneui/themed";
 import React from "react";
 import { useRouter } from "expo-router";
+import { GLOBAL_COLORS } from "@/constants/Colors";
 
-export default function register() {
+export default function Register() {
   const router = useRouter();
 
   const [email, setEmail] = React.useState("newUser@email.com");
@@ -11,7 +12,7 @@ export default function register() {
   const [confirmPassword, setConfirmPassword] = React.useState("123456");
 
   return (
-    <View>
+    <View style={{flex: 1, alignItems: "center", justifyContent: "flex-start"}}>
       <Text style={styles.title}>Novo usuário</Text>
 
       <Input
@@ -67,10 +68,12 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   inputContainer: {
+    width: 270,
     borderBottomWidth: 0,
     paddingHorizontal: 0,
   },
   input: {
+    width: 270,
     marginBottom: 10,
     borderColor: "#D9D9D9",
     borderWidth: 1,
@@ -85,14 +88,13 @@ const styles = StyleSheet.create({
     color: "black",
   },
   buttonsContainer: {
-    flex: 1,
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
   },
   button: {
     width: 110,
-    backgroundColor: "#9d81d6",
+    backgroundColor: GLOBAL_COLORS.PRIMARY,
     borderRadius: 5,
     padding: 10,
     alignItems: "center",
@@ -104,7 +106,7 @@ const styles = StyleSheet.create({
   },
   buttonOutline: {
     width: 110,
-    borderColor: "#9d81d6",
+    borderColor: GLOBAL_COLORS.PRIMARY,
     borderWidth: 1,
     borderRadius: 5,
     padding: 10,
@@ -112,7 +114,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   buttonOutlineText: {
-    color: "#9d81d6",
+    color: GLOBAL_COLORS.PRIMARY,
     fontSize: 16,
   },
 });
