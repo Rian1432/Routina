@@ -25,10 +25,23 @@ Para ajudar o usuário a se organizar e alcançar seus objetivos, o Routina ofer
 
 ## Planejamento de sprints
 
-- [ ] semana 1: Configurações gerais do projeto(layout e banco de dados)
+- [x] semana 1: Configurações gerais do projeto(layout e banco de dados)
 - [ ] semana 2: Cadastro e autenticação de usuário
 - [ ] semana 3: CRUD de tarefas da semana
 - [ ] semana 4: CRUD de hábitos
+
+## Atualizações desde o último checkpoint
+
+### Composição de telas
+Link para visualização das telas implementadas: [Link no Drive](https://drive.google.com/file/d/1t5vIqpOoyU9s1MWABzI5CUo3uG7a_auz/view?usp=drive_link)
+
+### Recursos
+- Utilizei a lib react-native-elements para criação das telas implementadas;
+
+### Conceitos da aula “Boas práticas para a criação de componentes reutilizáveis”
+- Utilizei o conceito de isolamento para compoenentes que se repetem na tela principal;
+- Utilizei mock para visualização das telas populadas com e sem dados;
+- Criei um componente que recebe um outro elemento como filho.
 
 ## Executando do projeto em desenvolvimento
 
