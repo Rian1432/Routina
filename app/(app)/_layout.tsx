@@ -13,7 +13,6 @@ export default function RootLayout() {
         headerRight: () => (
           <TouchableOpacity onPress={() => router.push("/login")}>
             <Icon
-              style={{ paddingRight: 0 }}
               color="#fff"
               name="exit-outline"
               type="ionicon"

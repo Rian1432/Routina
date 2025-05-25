@@ -1,29 +1,30 @@
-type Habit = {
-  id: string;
+export type Habit = {
+  id: number;
   name: string;
-  frequency: string;
-  duration: string;
+  count: number;
 }
 
 const habits: Habit[] = [
   {
-    id: "1",
-    name: "Fazer compras",
-    frequency: "Diário",
-    duration: "30 minutos",
+    id: 1,
+    name: "Correr",
+    count: 10,
   },
   {
-    id: "2",
-    name: "Fazer compras",
-    frequency: "Diário",
-    duration: "30 minutos",
+    id: 2,
+    name: "Ler",
+    count: 20,
   },
-   {
-    id: "3",
-    name: "Fazer compras",
-    frequency: "Diário",
-    duration: "30 minutos",
-  }
+  // {
+  //   id: 3,
+  //   name: "Ler",
+  //   count: 20,
+  // },
+  // {
+  //   id: 4,
+  //   name: "Ler",
+  //   count: 20,
+  // }
 ];
 
 export default habits;
